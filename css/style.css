@@ -1,0 +1,191 @@
+* {
+    font-family: Poppins;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    font-size: 30px;
+}
+
+.nav-links a {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+section {
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav-links li {
+    padding: 0px 20px;
+    display: inline-block;
+}
+
+.nav-links li :hover {
+    color: blue;
+}
+
+.heading {
+    text-align: center;
+    font-size: 50px;
+}
+
+.subhead {
+    text-align: center;
+    font-weight: 600;
+}
+
+p {
+    font-size: 20px;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border: 10px solid transparent;
+    font-weight: bold;
+    font-size: medium;
+    padding: 5px 10px;
+    border-radius: 35px;
+}
+
+.secth {
+    text-align: center;
+    height: 700px;
+}
+
+.sect1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.sect2 {
+    text-align: center;
+    color: white;
+}
+
+.sect3 {
+    text-align: center;
+    height: 500px;
+    justify-content: center;
+    color: black;
+}
+
+.icons {
+    justify-content: space-evenly;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.design {
+    height: 160px;
+    padding: 30px;
+    cursor: pointer;
+}
+
+#designt {
+    box-sizing: content-box 160px;
+    padding: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.dev {
+    height: 200px;
+    padding: 30px;
+    cursor: pointer;
+}
+
+#devt {
+    box-sizing: content-box 160px;
+    padding: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.file {
+    height: 200px;
+    padding: 30px;
+    cursor: pointer;
+}
+
+#filet {
+    box-sizing: content-box 160px;
+    padding: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.sect4 {
+    text-align: center;
+}
+
+.work-items {
+    display: block;
+    padding: 50px 50px 50px 50px;
+}
+
+.item1 .item2 {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.sect5 {
+    color: aliceblue;
+    text-align: center;
+    height: 500px;
+}
+
+form {
+    justify-content: space-around;
+    padding: 10px;
+}
+
+#email,
+#name {
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #777;
+    outline: none;
+}
+
+#comments {
+    width: 400px;
+    height: 150px;
+    border-radius: 5px;
+    border: 1px solid #777;
+    outline: none;
+}
+
+.btn2 {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border: 10px solid transparent;
+    font-weight: bold;
+    font-size: medium;
+    padding: 5px 10px;
+    border-radius: 14px;
+}
+
+footer {
+    text-align: center;
+}
